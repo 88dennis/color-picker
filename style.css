@@ -1,0 +1,118 @@
+body {
+    /* background-color: #232323; */
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    /* font-family: "Montserrat", "Avenir"; */
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    display: inline-block;
+    margin-left: 1.66%;
+    margin-top: 1.66%;
+    border-radius: 14%;
+    transition: background-color 0.6s;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background 0.6s;
+    box-shadow: 2px 0px 5px 2px rgb(15, 15, 15);
+    -webkit-box-shadow: 2px 0px 5px 2px rgb(15, 15, 15);
+    -moz-box-shadow: 2px 0px 5px 2px rgb(15, 15, 15);
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+/* .mainWrap {
+    width: 100%;
+} */
+
+.titleHead {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+    transition: background-color 0.6s;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background 0.6s;
+    background: steelblue;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+    /* transition is used evertime a property is change via javascript */
+}
+
+.selectedSquare {
+    box-shadow: none;
+}
+
+.h1colorDisplay {
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 100%;
+}
+
+#colorDisplay {
+    font-size: 100%;
+}
+
+#stripe {
+    text-align: center;
+    width: 100%;
+    background-color: none;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}
+
+button {
+    border: none;
+    background: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    height: 150%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:hover {
+    color: rgb(36, 36, 73);
+    background-color: lightgray;
+}
+
+button:focus {
+    outline: none;
+}
